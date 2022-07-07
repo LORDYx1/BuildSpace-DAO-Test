@@ -82,7 +82,7 @@ const memberList = useMemo(() => {
 }, [memberAddresses, memberTokenAmounts]);
   
     useEffect(() => {
-      // If they don't have a connected wallet, exit!
+      // If they don't have a connected wallet, exit
       if (!address) {
         return;
       }
